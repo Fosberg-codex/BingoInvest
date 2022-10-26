@@ -1,1 +1,1 @@
-web: gunicorn bingoinvest.wsgi --log-file -
+web: python manage.py collectstatic --noinput;gunicorn bingoinvest.wsgi --log-file -
