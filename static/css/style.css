@@ -484,15 +484,7 @@ ol {
 	margin-bottom: 0;
 }
 
-.process-step:after {
-	position: absolute;
-	content: '';
-	width: 275px;
-	height: 56px;
-	top: -40px;
-	right: -40%;
-	background: url("../img/process-line.png") no-repeat scroll 0 0/cover;
-}
+
 
 /*---------------------
 	Fact Section
